@@ -1,0 +1,22 @@
+{
+    "run": [
+        {
+            "name": "zpl",
+            "projectName": "zpl",
+            "workingDirectory": "c:\\Users\\dgiroto\\udemy\\zpl",
+            "args": [],
+            "vmargs": [],
+            "preLaunchTask": ""
+        }
+    ],
+    "debug": [
+        {
+            "name": "zpl",
+            "projectName": "zpl",
+            "workingDirectory": "c:\\Users\\dgiroto\\udemy\\zpl",
+            "args": [],
+            "vmargs": [],
+            "preLaunchTask": ""
+        }
+    ]
+}
