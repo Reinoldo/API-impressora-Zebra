@@ -5,6 +5,8 @@ import br.com.dsg.zpl.elemento.core.ElementoComposto;
 import br.com.dsg.zpl.elemento.core.GerenciadorElemento;
 import br.com.dsg.zpl.elemento.core.Parametros;
 
+import java.io.IOException;
+
 /**
  * @author denisgiroto
  *
@@ -29,7 +31,10 @@ public abstract class ComandoSimples extends ElementoComposto{
 	
 	@Override
 	protected void montaElemento(GerenciadorElemento gerenciador) {
-		gerenciador.registra(posicao);
+		if(this.posicao !=null){
+
+			gerenciador.registra(posicao);
+		}
 		
 		if(this.comando!=null) {
 			

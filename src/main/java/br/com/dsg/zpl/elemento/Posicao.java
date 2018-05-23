@@ -29,8 +29,8 @@ public class Posicao extends ElementoComposto{
 	protected void montaElemento(GerenciadorElemento gerenciador) {
 		gerenciador.registra(
 				new ComandoGeral("^FO", 
-						new Valor(horizontal, true),
-						new Valor(vertical,   true ))
+						new Valor(horizontal, false),
+						new Valor(vertical,   false ))
 				);
 	}
 
