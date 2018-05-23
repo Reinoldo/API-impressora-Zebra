@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="371480b6-8e51-4c1c-99ec-253f5654eb72" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/dsg/zpl/elemento/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dsg/zpl/elemento/ComandoSimples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dsg/zpl/elemento/ComandoSimples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dsg/zpl/elemento/Imagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dsg/zpl/elemento/Imagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dsg/zpl/elemento/Posicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dsg/zpl/elemento/Posicao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/dsg/zpl/elemento/core/TestMontar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/dsg/zpl/elemento/core/TestMontar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/teste/TesteQRCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/teste/TesteQRCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMontar.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestMontar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/dsg/zpl/elemento/core/TestMontar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+            <state relative-caret-position="350">
+              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -147,6 +152,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="reinoldo" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -168,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/dsg/zpl/elemento/core/Pagina.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/dsg/zpl/elemento/Posicao.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/dsg/zpl/elemento/core/TestMontar.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -485,8 +496,16 @@
       <updated>1526924547984</updated>
       <workItem from="1526924552026" duration="14855000" />
       <workItem from="1526994489155" duration="20872000" />
-      <workItem from="1527078457035" duration="13893000" />
+      <workItem from="1527078457035" duration="14278000" />
     </task>
+    <task id="LOCAL-00001" summary="Adição de imagem.">
+      <created>1527112882357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527112882357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -510,7 +529,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49620000" />
+    <option name="totallyTimeSpent" value="50005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="22" width="1372" height="749" extended-state="6" />
@@ -525,10 +544,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.29821718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25769854" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.016207455" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1918429" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1918429" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -577,6 +596,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adição de imagem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição de imagem." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -828,16 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/jdk_8/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1003,8 +1016,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/dsg/zpl/elemento/core/TestMontar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        <state relative-caret-position="350">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
