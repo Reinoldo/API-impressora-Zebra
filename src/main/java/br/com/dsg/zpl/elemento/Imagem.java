@@ -10,18 +10,21 @@ public class Imagem extends ComandoSimples {
 
     private Image imagem = null;
     Posicao posicao = null;
+    int magnitudeX;
+    int magnitudeY;
 
-    public Imagem(Posicao posicao, Image imagem ){
+    public Imagem(Posicao posicao, Image imagem,int magnitudeX, int magnitudeY  ){
         super(null);
         this.posicao = posicao;
         this.imagem = imagem;
+        this.magnitudeX = magnitudeX;
+        this.magnitudeY = magnitudeY;
     }
 
 
     @Override
     protected void montaCampo(GerenciadorElemento gerenciador){
-       // String teste = leArquivo();
-       // gerenciador.registra();
+
 
         gerenciador.registra((Elemento) imagem);
 
@@ -29,8 +32,8 @@ public class Imagem extends ComandoSimples {
 
         gerenciador.registra(new ComandoGeral("^XG")
                 .comValor("R:"+this.imagem.getNomeImagem())
-                .comValor(1)
-                .comValor(1)
+                .comValor(this.magnitudeX)
+                .comValor(this.magnitudeY)
         );
 
     }

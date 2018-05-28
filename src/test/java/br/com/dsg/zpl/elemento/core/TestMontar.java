@@ -5,22 +5,25 @@ import br.com.dsg.zpl.elemento.*;
 public class TestMontar {
 
 	public static void main(String[] args) {
-		QRCode qr = new QRCode(new Posicao(150,2),2,10, "hahaha");
+		QRCode qr = new QRCode(new Posicao(300,2),2,8, "hahaha");
 
-		CodigoBarra bar = new CodigoBarra(new Posicao(5, 10),new Dimensao(1, 50), true," 1234567890");
+		Posicao pos = new Posicao(440,250);
+
+		CodigoBarra bar = new CodigoBarra(new Posicao(15, 20),new Dimensao(1, 60), true," 123");
 
 		Dimensao dimensaoCaractere = new Dimensao(3, 3);
 		((Pagina)ZPLBuilder.novaPagina(UnidadeMedida.MILIMETROS,Densidade.SEIS_PONTOS, 379 , 375)
 				.comMargem()
 				.registra(bar)
-				//.registra(qr)
-				//.registra(new Imagem(new Posicao(250,10),new ImagemGRF("","SEDEX10.GRF")))
+				.registra(qr)
+				.registra(new Imagem(new Posicao(630,10),new ImagemGRF("","sedex_12_reverso.GRF"),1,1))
+				.registra(new CampoAlfanumerico(new Posicao(400,250),"Contrato:").comDimensao(new Dimensao(5,5)))
+				.registra(new CampoAlfanumerico(pos, "123123").comDimensao(new Dimensao(5,5)))
 
-				
 
-				
 
-				
+
+
 		).test();
 
 	}

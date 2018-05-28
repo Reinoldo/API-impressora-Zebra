@@ -19,9 +19,11 @@ public class ImagemGRF extends ElementoComposto implements Image{
 	String caminho;
 	String conteudo;
 
-	public ImagemGRF(String caminho, String nomeArquivo) {
+
+	public ImagemGRF(String caminho, String nomeArquivo ) {
 		this.caminho="resources/zebra";//caminho;
 		this.nomeArquivo = nomeArquivo;
+
 	}
 
 	@Override
