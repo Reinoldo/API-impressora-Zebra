@@ -25,60 +25,52 @@ public class ComandoGeral extends Elemento {
 
 
 	public ComandoGeral comValor(Dimensao dimensao) {
-		if(valores == null) {
-			this.valores = new ArrayList<Valor>();
-		}
+		criaLista();
 		this.valores.add(new Valor(dimensao.getLargura(), true ));
 		this.valores.add(new Valor(dimensao.getAltura() , true ));
 		return this;
 	}
-	
-	public ComandoGeral comValor(String valor, Conversor conversor) {
+
+	private void criaLista() {
 		if(valores == null) {
 			this.valores = new ArrayList<Valor>();
 		}
+	}
+
+	public ComandoGeral comValor(String valor, Conversor conversor) {
+		criaLista();
 		this.valores.add(new Valor(valor,false, conversor));
 		return this;
 	}
 	
 	public ComandoGeral comValor(int valor, Conversor conversor) {
-		if(valores == null) {
-			this.valores = new ArrayList<Valor>();
-		}
+		criaLista();
 		this.valores.add(new Valor(valor,false, conversor));
 		return this;
 	}
 	
 	public ComandoGeral comValor(String valor) {
-		if(valores == null) {
-			this.valores = new ArrayList<Valor>();
-		}
+		criaLista();
 		this.valores.add(new Valor(valor));
 		return this;
 	}
 	
 	public ComandoGeral comValor(int valor) {
-		if(valores == null) {
-			this.valores = new ArrayList<Valor>();
-		}
+		criaLista();
 		this.valores.add(new Valor(valor));
 		return this;
 	}
 	
 	public ComandoGeral comValor(int valor, boolean converterUnidade) {
-		if(valores == null) {
-			this.valores = new ArrayList<Valor>();
-		}
-		
+		criaLista();
+
 		this.valores.add(new Valor(valor,converterUnidade));
 		return this;
 	}
 	
 
 	public ComandoGeral comValor(Valor valor) {
-		if(valores == null) {
-			this.valores = new ArrayList<Valor>();
-		}
+		criaLista();
 		this.valores.add(valor);
 		return this;
 	}

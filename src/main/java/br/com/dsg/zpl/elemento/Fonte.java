@@ -20,7 +20,7 @@ public class Fonte extends ElementoComposto{
 	@Override
 	protected void montaElemento(GerenciadorElemento gerenciador) {
 		gerenciador.registra(
-				new ComandoGeral("^CF", 
+				new ComandoGeral("^CF",
 						new Valor("0"),
 						new Valor(tamanho, true) )
 				);

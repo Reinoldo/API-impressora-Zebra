@@ -16,9 +16,10 @@ public class TestMontar {
 				.comMargem()
 				.registra(bar)
 				.registra(qr)
-				.registra(new Imagem(new Posicao(630,10),new ImagemGRF("","sedex_12_reverso.GRF"),1,1))
+				.registra(new Imagem(new Posicao(630,10),new ImagemGRF("","CORREIOS.GRF"),1,1))
+
 				.registra(new CampoAlfanumerico(new Posicao(400,250),"Contrato:").comDimensao(new Dimensao(5,5)))
-				.registra(new CampoAlfanumerico(pos, "123123").comDimensao(new Dimensao(5,5)))
+				//.registra(new CampoAlfanumerico(pos, "123123").comDimensao(new Dimensao(5,5)))
 
 
 
